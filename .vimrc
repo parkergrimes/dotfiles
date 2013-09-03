@@ -102,3 +102,31 @@ let g:jedi#usages_command = "<leader>z"
 let g:jedi#popup_on_dot = 0
 let g:jedi#popup_select_first = 0
 map <Leader>b Oimport ipdb; ipdb.set_trace() # BREAKPOINT<C-c>
+
+" For mac users (using the 'apple' key)
+map <C-]> gt
+map <C-[> gT
+map <C-1> 1gt
+map <C-2> 2gt
+map <C-3> 3gt
+map <C-4> 4gt
+map <C-5> 5gt
+map <C-6> 6gt
+map <C-7> 7gt
+map <C-8> 8gt
+map <C-9> 9gt
+map <C-0> :tablast<CR>
+"  
+"  " for linux and windows users (using the control key)
+"  map <C-S-]> gt
+"  map <C-S-[> gT
+"  map <C-1> 1gt
+"  map <C-2> 2gt
+"  map <C-3> 3gt
+"  map <C-4> 4gt
+"  map <C-5> 5gt
+"  map <C-6> 6gt
+"  map <C-7> 7gt
+"  map <C-8> 8gt
+"  map <C-9> 9gt
+"  map <C-0> :tablast<CR>
