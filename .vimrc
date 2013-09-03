@@ -33,7 +33,7 @@ syntax on
 " Highlight current line
 set cursorline
 " Enable mouse in all modes.
-set mouse=a
+"set mouse=a
 " Disable error bells
 set noerrorbells
 " Don’t reset cursor to start of line when moving around.
@@ -104,18 +104,18 @@ let g:jedi#popup_select_first = 0
 map <Leader>b Oimport ipdb; ipdb.set_trace() # BREAKPOINT<C-c>
 
 " For mac users (using the 'apple' key)
-map <C-]> gt
-map <C-[> gT
-map <C-1> 1gt
-map <C-2> 2gt
-map <C-3> 3gt
-map <C-4> 4gt
-map <C-5> 5gt
-map <C-6> 6gt
-map <C-7> 7gt
-map <C-8> 8gt
-map <C-9> 9gt
-map <C-0> :tablast<CR>
+map <C-S-]> gt
+map <C-S-[> gT
+map <C-S-1> 1gt
+map <C-S-2> 2gt
+map <C-S-3> 3gt
+map <C-S-4> 4gt
+map <C-S-5> 5gt
+map <C-S-6> 6gt
+map <C-S-7> 7gt
+map <C-S-8> 8gt
+map <C-S-9> 9gt
+map <C-S-0> :tablast<CR>
 "  
 "  " for linux and windows users (using the control key)
 "  map <C-S-]> gt
@@ -130,3 +130,6 @@ map <C-0> :tablast<CR>
 "  map <C-8> 8gt
 "  map <C-9> 9gt
 "  map <C-0> :tablast<CR>
+
+let g:netrw_list_hide= '.*\.pyc$'
+" let g:netrw_list_hide= '\.DS.*$'
