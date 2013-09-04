@@ -23,6 +23,8 @@ set directory=~/.vim/swaps
 if exists("&undodir")
 	set undodir=~/.vim/undo
 endif
+set autoindent
+set cindent
 
 " Automatic reloading of .vimrc
 autocmd! bufwritepost .vimrc source %
