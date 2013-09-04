@@ -68,7 +68,9 @@ autocmd ColorScheme * highlight ExtraWhitespace ctermbg=red guibg=red
 syntax enable
 set background=dark
 " let g:solarized_termcolors=256
-colorscheme solarized
+"colorscheme solarized
+" curl -o molokai.vim https://raw.github.com/tomasr/molokai/master/colors/molokai.vim
+colorscheme molokai
 
 "set colorcolumn=80
 set tabstop=4
