@@ -35,7 +35,7 @@ syntax on
 " Highlight current line
 set cursorline
 " Enable mouse in all modes.
-"set mouse=a
+set mouse=a
 " Disable error bells
 set noerrorbells
 " Don’t reset cursor to start of line when moving around.
@@ -54,6 +54,7 @@ set bs=2
 noremap <C-Z> :update<CR>
 vnoremap <C-Z> <C-C>:update<CR>
 vnoremap <C-Z> <C-O>:update<CR>
+vnoremap <D-c> "+y
 
 " Map sort function to a key
 vnoremap <Leader>s :sort<CR>
