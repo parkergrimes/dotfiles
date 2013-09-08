@@ -25,6 +25,8 @@ if exists("&undodir")
 endif
 set autoindent
 set cindent
+filetype indent on
+set smartindent
 
 " Automatic reloading of .vimrc
 autocmd! bufwritepost .vimrc source %
