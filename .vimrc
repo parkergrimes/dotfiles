@@ -30,8 +30,18 @@ set smartindent
 
 " Automatic reloading of .vimrc
 autocmd! bufwritepost .vimrc source %
-" Enable line numbers
-set number
+" Enable line numbers, relative numbers by default, but can swtich with Ctrl+n
+" back and forth quickly.
+set relativenumber
+function! NumberToggle()
+    if(&relativenumber == 1)
+        set number
+    else
+        set relativenumber
+    endif
+endfunc
+nnoremap <C-n> :call NumberToggle()<cr>
+
 " Enable syntax highlighting
 syntax on
 " Highlight current line
